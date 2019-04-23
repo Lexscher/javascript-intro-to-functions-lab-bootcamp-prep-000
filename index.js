@@ -6,6 +6,8 @@ let logShout = string => console.log(shout(string));
 
 let logWhisper = string => console.log(whisper(string));
 
+// check if a string is uppercase
+
 let sayHiToGrandma = string => {
   let response;
   switch(string.isUpperCase()) {
