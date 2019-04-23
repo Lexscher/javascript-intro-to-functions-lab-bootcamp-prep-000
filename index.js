@@ -11,7 +11,7 @@ let isUpperCase = str => str === str.toUpperCase();
 
 let sayHiToGrandma = string => {
   let response;
-  switch(isUpperCase()) {
+  switch(string) {
     case 'hello':
       response = 'I can\'t hear you';
       break;
